@@ -28,11 +28,11 @@ function Body(){
         let usermail = mail
 
         
-    
-         if(usermail  === '' || usermail.length <8 ){
-            alert('PASSWORD MUST BE MINIMUM OF 8 CHARACTERS')
-         }else if(!username){
+        
+        if(!username){
             alert('username input cannot be empty!')
+        }else if(usermail  === '' || usermail.length <8 ){
+            alert('PASSWORD MUST BE MINIMUM OF 8 CHARACTERS')
          }else{alert( 'USERNAME: ' + username+ " " +' '+'PASSWORD: '+ usermail );
          setName('Your new username is: ' + username);
          setEmail( 'Your new Password is: ' + usermail);}
