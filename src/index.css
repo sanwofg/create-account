@@ -1,0 +1,43 @@
+
+body{
+  background-color: black;
+  color: white;
+}
+.text-div{
+  background-color: rgb(153, 153, 169); 
+
+}
+.submit-button{
+  margin-top: 3vh;
+  border: none;
+  background-color: rgb(153, 153, 169);
+  font-size: 20px;
+  padding:5px 50px;
+  border-radius: 30px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.appp{
+  background-color: black;
+  color: white;
+}
+.input-text{
+  margin-bottom: 10vh;
+}
+.input-bar{
+  width:30vw;
+  height: 7vh;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.input-bar::placeholder{
+  padding-left: 1vw;
+  font-weight: 500;
+}
